@@ -34,7 +34,43 @@ class Client:
         else:
             raise ValueError("Last name must be filled.")
         
-        if validate_email(email_address, True):
+        if validate_email(email_address):
             self.__email_address = email_address
         else:
             raise EmailNotValidError("Enter a valid email.")
+        
+    @property
+    def client_number(self) -> int:
+        """
+        Accessor for client number
+        Returns:
+            int - The client number
+        """
+        return self.__client_number
+    
+    @property
+    def first_name(self) -> str:
+        """
+        Accessor for the first name of the client
+        Returns:
+            str - The first name of the client
+        """
+        return self.__first_name
+    
+    @property
+    def last_name(self) -> str:
+        """
+        Accessor for the last name of the client
+        Returns:
+            str - The last name of the client
+        """
+        return self.__last_name
+    
+    @property
+    def email_address(self) -> str:
+        """
+        Accessor for the last name of the client
+        Returns:
+            str - The client's email address
+        """
+        return self.__email_address
