@@ -1,6 +1,8 @@
 __author__ = "Rogine Mirando"
 __version__ = "1.0.0"
 
+from email_validator import validate_email, EmailNotValidError
+
 class Client:
     """
     A class that manages client information
@@ -32,7 +34,7 @@ class Client:
         else:
             raise ValueError("Last name must be filled.")
         
-        if len(email_address.strip()) > 0:
+        if validate_email(email_address, True):
             self.__email_address = email_address
         else:
-            raise ValueError("Email address must be filled.")
+            raise EmailNotValidError("Enter a valid email.")
