@@ -10,4 +10,5 @@ The classes will incorporate the outcomes associated with Module 01.
 Encapsulation of private attributes, public accessors and mutators.
 
 ## Encapsulation
-[use this section to explain how Encapsulation was achieved in the BankAccount class.]
+The way I achieved encapsulation in my BankAccount class is how I made the account_number, client_number, and balance.
+They're private attributes because their names are added with a double underscore prefix.
