@@ -66,9 +66,9 @@ class BankAccount:
             try:
                 # This will try to check if amount can be converted into a float. Ex) 120 turns into 120.00
                 self.__balance += float(amount)
-            except ValueError:
+            except:
                 # if all fails, the balance will not be changed
-                print("The amount is not valid")
+                self.__balance = self.__balance
 
     def deposit(self, amount: float) -> None:
         """
