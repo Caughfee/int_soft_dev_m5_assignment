@@ -27,7 +27,6 @@ class BankAccount:
         if isinstance(balance, float):
             self.__balance = balance
         else:
-            self.__balance = 0.0
             raise ValueError("Enter a numeric")
 
     @property

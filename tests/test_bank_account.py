@@ -73,6 +73,11 @@ class TestBankAccount(unittest.TestCase):
         # Assert
         self.assertEqual(self.bank_account.balance, 210.00)
 
+    def test_update_balance_non_numeric_amount(self):
+        # assert and arrange
+        with self.assertRaises(ValueError):
+            self.bank_account.update_balance("asdw")
+            
     def test_deposit(self):
         # Arrange and act
         self.bank_account.deposit(100.00)
