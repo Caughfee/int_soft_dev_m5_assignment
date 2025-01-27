@@ -74,3 +74,11 @@ class Client:
             str - The client's email address
         """
         return self.__email_address
+    
+    def __str__(self) -> str:
+        """
+        Returns a string of that shows the values of the attributes in the class
+        Returns:
+            str - The client class in a string format.
+        """
+        return (f"{self.__last_name}, {self.__first_name}, [{self.__client_number}] - {self.__email_address}")
