@@ -86,14 +86,35 @@ class BankAccount:
                     # Just in case the amount is an integer and not a float, this will convert it into a float
                     float_amount = float(amount)
                     if float_amount <= 0:
-                        raise ValueError(f"Deposit Amount: {amount} must be a positive number")
+                        raise ValueError(f"Deposit Amount: {float_amount} must be a positive number")
                     else:
                         self.update_balance(float_amount)
                 except ValueError:
                     # If the amount is not a numeric
                     print(f"Deposit amount: {amount} must be numeric")
 
-        
+        def withdrawal(self, amount:float) -> None:
+            """
+            Allows to make withdrawals
+            Args:
+                amount (float): The amount of the withdrawal
+            """
+            if isinstance(amount, float):
+                if amount <= 0:
+                    raise ValueError(f"Withdrawal amount: {amount} must be positive")
+                else:
+                    self.update_balance(-amount)
+            else:
+                try:
+                    # Just in case the amount is an integer and not a float, this will convert it into a float
+                    float_amount = float(amount)
+                    if float_amount <= 0:
+                        raise ValueError(f"Withdrawal Amount: {float_amount} must be a positive number")
+                    else:
+                        self.update_balance(-float_amount)
+                except ValueError:
+                    # If the amount is not a numeric
+                    print(f"Withdrawal amount: {amount} must be numeric")
                 
 
 
