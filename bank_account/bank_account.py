@@ -53,4 +53,50 @@ class BankAccount:
             """
             return self.__balance
         
+        def update_balance(self, amount) -> None:
+            """
+            Updates the account balance
+            Args:
+                amount (float): The amount that will be added to the balance
+            """
+            if isinstance(amount, float):
+                self.balance += amount
+            else:
+                # If the amount is not a float
+                try:
+                    # This will try to check if amount can be converted into a float. Ex) 120 turns into 120.00
+                    self.balance += float(amount)
+                except ValueError:
+                    # if all fails, the balance will not be changed
+                    print("The amount is not valid")
+
+        def deposit(self, amount: float) -> None:
+            """
+            Allows to make a deposit
+            Args:
+                amount (float): the amount that will be deposited
+            """
+            if isinstance(amount, float):
+                if amount <= 0:
+                    raise ValueError(f"Deposit Amount: {amount} must be a positive number")
+                else:
+                    self.update_balance(amount)
+            else:
+                try:
+                    # Just in case the amount is an integer and not a float, this will convert it into a float
+                    float_amount = float(amount)
+                    if float_amount <= 0:
+                        raise ValueError(f"Deposit Amount: {amount} must be a positive number")
+                    else:
+                        self.update_balance(float_amount)
+                except ValueError:
+                    # If the amount is not a numeric
+                    print(f"Deposit amount: {amount} must be numeric")
+
         
+                
+
+
+
+        
+
