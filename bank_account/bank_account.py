@@ -28,6 +28,7 @@ class BankAccount:
             self.__balance = balance
         else:
             self.__balance = 0.0
+            raise ValueError("Enter a numeric")
 
     @property
     def account_number(self) -> int:
