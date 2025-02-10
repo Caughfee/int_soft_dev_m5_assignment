@@ -9,6 +9,10 @@ Assignment 01: Classes, Encapsulation and Unit Test Planning
 The classes will incorporate the outcomes associated with Module 01.
 Encapsulation of private attributes, public accessors and mutators.
 
+Assignment 02: Abstraction, Inheritance and Polymorphism
+This assignment will focus on the topics we have learned in Module 2.
+Abstraction, Inheritance, and Polymorphism.
+
 ## Encapsulation
 The way I achieved encapsulation in my BankAccount class is how I made the account_number, client_number, and balance.
 They're private attributes because their names are added with a double underscore prefix.
