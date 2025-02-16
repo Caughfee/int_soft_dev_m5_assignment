@@ -38,4 +38,11 @@ class ChequingAccount(BankAccount):
         string += (f"Overdraft Limit: ${self.__overdraft_limit:.2f} Overdraft Rate: {self.__overdraft_rate*100:.2f}% Account Type: Chequing")
         return string
     
-    
+    def get_service_charges(self) -> float:
+        """
+        Returns the calculated service charges for a chequing account
+        Returns:
+            float - The service charges
+        """
+        calculated_service_charge = self.BASE_SERVICE_CHARGE + (self.__overdraft_limit - self.__balance) * self.__overdraft_rate
+        return calculated_service_charge
