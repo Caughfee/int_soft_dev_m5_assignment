@@ -44,5 +44,9 @@ class ChequingAccount(BankAccount):
         Returns:
             float - The service charges
         """
-        calculated_service_charge = self.BASE_SERVICE_CHARGE + (self.__overdraft_limit - self.__balance) * self.__overdraft_rate
-        return calculated_service_charge
+        if self.__balance >= self.__overdraft_limit:
+            calculate_service_charge = self.BASE_SERVICE_CHARGE
+            return calculate_service_charge
+        else:
+            calculate_service_charge = self.BASE_SERVICE_CHARGE + (self.__overdraft_limit - self.__balance) * self.__overdraft_rate
+            return calculate_service_charge
