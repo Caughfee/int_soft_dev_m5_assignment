@@ -2,6 +2,7 @@ __author__ = "Rogine Mirando"
 __version__ = "1.0.0"
 
 from  datetime import date
+from abc import abstractmethod
 
 class BankAccount:
     """
@@ -134,3 +135,12 @@ class BankAccount:
         Returns: str - The BankAccount instance as a formatted string
         """
         return (f"Account Number: {self.__account_number} Balance: ${self.__balance:.2f}")
+    
+    @abstractmethod
+    def get_service_charged(self) -> float:
+        """
+        Returns the calculated service charages that a bank account will incur
+        Returns:
+            float - the service charges
+        """
+        pass
