@@ -32,3 +32,16 @@ class InvestmentAccount(BankAccount):
         else:
             string += (f"\nManagement Fee: Waived Account Type: Investment")
         return string
+    
+    def get_service_charges(self):
+        """
+        Returns the calculated service charges for an investment account
+        Returns:
+            float - The service charges
+        """
+        if self._date_created < self.TEN_YEARS_AGO:
+            calculated_service_charge = self.BASE_SERVICE_CHARGE
+            return calculated_service_charge
+        else:
+            calculated_service_charge = self.BASE_SERVICE_CHARGE + self.__management_fee
+            return calculated_service_charge
