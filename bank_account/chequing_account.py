@@ -35,7 +35,7 @@ class ChequingAccount(BankAccount):
             str: A string that shows account number, balance, overdraft limit and rate, and account type
         """
         string = super().__str__()
-        string += (f"Overdraft Limit: ${self.__overdraft_limit:.2f} Overdraft Rate: {self.__overdraft_rate*100:.2f}% Account Type: Chequing")
+        string += (f"\nOverdraft Limit: ${self.__overdraft_limit:.2f} Overdraft Rate: {self.__overdraft_rate*100:.2f}% Account Type: Chequing")
         return string
     
     def get_service_charges(self) -> float:
@@ -44,9 +44,9 @@ class ChequingAccount(BankAccount):
         Returns:
             float - The service charges
         """
-        if self.__balance >= self.__overdraft_limit:
+        if self._BankAccount__balance >= self.__overdraft_limit:
             calculate_service_charge = self.BASE_SERVICE_CHARGE
             return calculate_service_charge
         else:
-            calculate_service_charge = self.BASE_SERVICE_CHARGE + (self.__overdraft_limit - self.__balance) * self.__overdraft_rate
+            calculate_service_charge = self.BASE_SERVICE_CHARGE + (self.__overdraft_limit - self._BankAccount__balance) * self.__overdraft_rate
             return calculate_service_charge
