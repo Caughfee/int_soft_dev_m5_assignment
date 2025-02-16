@@ -21,19 +21,20 @@ class InvestmentAccount(BankAccount):
         else:
             self.__management_fee = 2.55
 
-    def __str__(self):
+    def __str__(self) -> str:
         """
         Returns a string representing the investment account
         Returns:
             str: A string that shows account number, balance, date created, management fee, and account type
         """
+        string = super().__str__()
         if self._date_created >= self.TEN_YEARS_AGO:
             string += (f"\nManagement Fee: ${self.__management_fee:.2f} Account Type: Investment")
         else:
             string += (f"\nManagement Fee: Waived Account Type: Investment")
         return string
     
-    def get_service_charges(self):
+    def get_service_charges(self) -> float:
         """
         Returns the calculated service charges for an investment account
         Returns:
