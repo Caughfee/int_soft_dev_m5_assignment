@@ -1,11 +1,14 @@
 __author__ = "Rogine Mirando"
 __version__ = "1.0.0"
 
+from  datetime import date
+
 class BankAccount:
     """
     A class that containts bank account information
     """
-    def __init__(self, account_number: int, client_number: int, balance: float):
+    BASE_SERVICE_CHARGE = 0.5
+    def __init__(self, account_number: int, client_number: int, balance: float, date_created: date):
         """
         Initializes the bank account information based on the values
         Args:
@@ -28,6 +31,13 @@ class BankAccount:
             self.__balance = balance
         else:
             raise ValueError("Enter a numeric")
+        
+        if date_created is None:
+            self._date_created = date.today()
+        elif isinstance(date_created, date):
+            self._date_created = date_created
+        else:
+            raise ValueError("Enter a valid date")
 
     @property
     def account_number(self) -> int:
