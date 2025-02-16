@@ -27,6 +27,8 @@ class InvestmentAccount(BankAccount):
         Returns:
             str: A string that shows account number, balance, date created, management fee, and account type
         """
-        string = super().__str__()
-        string += (f"\nDate Created: {self._date_created} Management Fee: ${self.__management_fee} Account Type: Investment")
+        if self._date_created >= self.TEN_YEARS_AGO:
+            string += (f"\nManagement Fee: ${self.__management_fee:.2f} Account Type: Investment")
+        else:
+            string += (f"\nManagement Fee: Waived Account Type: Investment")
         return string
