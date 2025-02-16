@@ -16,6 +16,7 @@ class BankAccount(ABC):
             account_number (int): The account number
             client_number (int): The client number
             balance (float): The balance of the bank account
+            date_created (date): The date it was created
         """
 
         if isinstance(account_number, int):
