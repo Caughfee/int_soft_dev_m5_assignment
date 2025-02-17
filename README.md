@@ -16,3 +16,6 @@ Abstraction, Inheritance, and Polymorphism.
 ## Encapsulation
 The way I achieved encapsulation in my BankAccount class is how I made the account_number, client_number, and balance.
 They're private attributes because their names are added with a double underscore prefix.
+
+## Polymorphism
+How I achieved polymorphism is how each bank account type use the same method names, like get_service_charges(), but it has something to add on to the method. An example would be something like appending more text to __str__().
