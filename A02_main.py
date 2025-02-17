@@ -62,21 +62,24 @@ print(f"Service Charges: ${savings_account.get_service_charges():.2f}")
 print("===================================================")
 # 8. Create an instance of an InvestmentAccount with values of your 
 # choice including a date created within the last 10 years.
-
+investment_account_last_10 = InvestmentAccount(101, 202, 5000.0, date(2018, 1, 1), 30.0)
 
 # 9a. Print the InvestmentAccount created in step 8.
+print(investment_account_last_10)
 # 9b. Print the service charges amount if calculated based on the 
 # current state of the InvestmentAccount created in step 8.
-
+print(f"Service Charges: ${investment_account_last_10.get_service_charges():.2f}")
 
 # 10. Create an instance of an InvestmentAccount with values of your 
 # choice including a date created prior to 10 years ago.
-
+investment_account_prior_10 = InvestmentAccount(303, 404, 7500.0, date(2010, 1, 1), 25.0)
 
 # 11a. Print the InvestmentAccount created in step 10.
+print(investment_account_prior_10)
+
 # 11b. Print the service charges amount if calculated based on the 
 # current state of the InvestmentAccount created in step 10.
-
+print(f"Service Charges: ${investment_account_prior_10.get_service_charges():.2f}")
 
 print("===================================================")
 
@@ -84,8 +87,14 @@ print("===================================================")
 # by using the withdraw method of the superclass and withdrawing 
 # the service charges determined by each instance invoking the 
 # polymorphic get_service_charges method.
-
+chequing_account.withdraw(chequing_account.get_service_charges())
+savings_account.withdraw(savings_account.get_service_charges())
+investment_account_last_10.withdraw(investment_account_last_10.get_service_charges())
+investment_account_prior_10.withdraw(investment_account_prior_10.get_service_charges())
 
 
 # 13. Print each of the bank account objects created in steps 2, 5, 8 and 10.
-
+print(chequing_account)
+print(savings_account)
+print(investment_account_last_10)
+print(investment_account_prior_10)
