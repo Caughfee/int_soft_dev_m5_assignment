@@ -35,7 +35,7 @@ class SavingsAccount(BankAccount):
         Returns the calculated service charges for a savings account
         Returns: float - The service charges
         """
-        if self.__BankAccount_balance >= self.__minimum_balance:
+        if self._BankAccount__balance >= self.__minimum_balance:
             calculated_service_charge = self.BASE_SERVICE_CHARGE
             return calculated_service_charge
         else:
