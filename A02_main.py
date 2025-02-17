@@ -4,15 +4,17 @@ the BankAccount sub classes.
 """
 __author__ = "ACE Faculty"
 __version__ = "1.0.0"
-__credits__ = ""
+__credits__ = "Rogine Mirando"
 
 # 1.  Import all BankAccount types using the bank_account package
 #     Import date from datetime
+from bank_account import *
+from datetime import date
 
 
 # 2. Create an instance of a ChequingAccount with values of your 
 # choice including a balance which is below the overdraft limit.
-
+chequing_account = ChequingAccount(123, 456, 300.0, date(2022, 1, 1), 500.0, 0.05)
 
 # 3. Print the ChequingAccount created in step 2.
 # 3b. Print the service charges amount if calculated based on the 
