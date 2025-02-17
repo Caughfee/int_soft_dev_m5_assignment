@@ -16,6 +16,28 @@ class SavingsAccount(BankAccount):
             minimum_balance (float): the minimum value a balance can be before further service charges are applied
         """
         if isinstance(minimum_balance, (int, float)):
-            self.__management_fee = float(minimum_balance)
+            self.__minimum_balance = float(minimum_balance)
         else:
-            self.__management_fee = 50.00
+            self.__minimum_balance = 50.00
+
+    def __str__(self) -> str:
+        """
+        Returns a string the savings account
+        Returns:
+            str: A string that shows account number, balance, minimum balance, and account type
+        """
+        string = super().__str__()
+        string += (f"\nMinimum Balance: ${self.__minimum_balance:.2f}, Account Type: Savings")
+        return string
+    
+    def get_service_charges(self) -> float:
+        """
+        Returns the calculated service charges for a savings account
+        Returns: float - The service charges
+        """
+        if self.__BankAccount_balance >= self.__minimum_balance:
+            calculated_service_charge = self.BASE_SERVICE_CHARGE
+            return calculated_service_charge
+        else:
+            calculated_service_charge = self.BASE_SERVICE_CHARGE * self.SERVICE_CHARGE_PREMIUM
+            return calculated_service_charge
