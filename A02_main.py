@@ -49,10 +49,14 @@ print(f"Service Charges: ${savings_account.get_service_charges():.2f}")
 # 7a. Use this SavingsAccount instance created in step 5 to withdraw 
 # enough money from the savings account to cause the balance to fall 
 # below the minimum balance.
+savings_account.withdraw(600.0)
+
 # 7b. Print the SavingsAccount.
+print(savings_account)
+
 # 7c. Print the service charges amount if calculated based on the 
 # current state of the SavingsAccount created in step 5.
-
+print(f"Service Charges: ${savings_account.get_service_charges():.2f}")
 
 
 print("===================================================")
