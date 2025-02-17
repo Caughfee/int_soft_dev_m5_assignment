@@ -17,26 +17,34 @@ from datetime import date
 chequing_account = ChequingAccount(123, 456, 300.0, date(2022, 1, 1), 500.0, 0.05)
 
 # 3. Print the ChequingAccount created in step 2.
+print(chequing_account)
+
 # 3b. Print the service charges amount if calculated based on the 
 # current state of the ChequingAccount created in step 2.
-
+print(f"Service Charges: ${chequing_account.get_service_charges():.2f}")
 
 # 4a. Use ChequingAccount instance created in step 2 to deposit 
 # enough money into the chequing account to avoid overdraft fees.
+chequing_account.deposit(500.0)
+
 # 4b. Print the ChequingAccount
+print(chequing_account)
+
 # 4c. Print the service charges amount if calculated based on the 
 # current state of the ChequingAccount created in step 2.
-
+print(f"Service Charges: ${chequing_account.get_service_charges():.2f}")
 
 print("===================================================")
 # 5. Create an instance of a SavingsAccount with values of your 
 # choice including a balance which is above the minimum balance.
-
+savings_account = SavingsAccount(789, 456, 1000.0, date(2022, 1, 1), 500.0)
 
 # 6. Print the SavingsAccount created in step 5.
+print(savings_account)
+
 # 6b. Print the service charges amount if calculated based on the 
 # current state of the SavingsAccount created in step 5.
-
+print(f"Service Charges: ${savings_account.get_service_charges():.2f}")
 
 # 7a. Use this SavingsAccount instance created in step 5 to withdraw 
 # enough money from the savings account to cause the balance to fall 
