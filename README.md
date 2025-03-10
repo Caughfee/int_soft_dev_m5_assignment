@@ -13,6 +13,9 @@ Assignment 02: Abstraction, Inheritance and Polymorphism
 This assignment will focus on the topics we have learned in Module 2.
 Abstraction, Inheritance, and Polymorphism.
 
+Assignment 03: Design Patterns
+For this assignment I will use the knowledge of design patterns gained from Module 3.
+
 ## Encapsulation
 The way I achieved encapsulation in my BankAccount class is how I made the account_number, client_number, and balance.
 They're private attributes because their names are added with a double underscore prefix.
