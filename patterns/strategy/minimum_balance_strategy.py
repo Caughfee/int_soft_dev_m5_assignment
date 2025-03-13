@@ -8,6 +8,7 @@ class MinimumBalanceStrategy(ServiceChargeStrategy):
     """
     A subclass of ServiceChargeStrategy that calculates service charges based on the minimum balance
     """
+    SERVICE_CHARGE_PREMIUM = 2.0
     def __init__(self, minimum_balance: float):
         """
         Initializes the MinimumBalanceStrategy
