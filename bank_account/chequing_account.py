@@ -29,6 +29,7 @@ class ChequingAccount(BankAccount):
         else:
             self.__overdraft_rate = 0.05
 
+        # New private attribute
         self.__strategy = OverdraftStrategy(self.__overdraft_limit, self.__overdraft_rate)
 
     def __str__(self) -> str:

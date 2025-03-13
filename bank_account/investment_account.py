@@ -22,6 +22,7 @@ class InvestmentAccount(BankAccount):
         else:
             self.__management_fee = 2.55
 
+        # New private attribute
         self.__strategy = ManagementFeeStrategy(self._date_created, self.__management_fee)
 
     def __str__(self) -> str:
