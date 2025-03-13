@@ -22,3 +22,6 @@ They're private attributes because their names are added with a double underscor
 
 ## Polymorphism
 How I achieved polymorphism is how each bank account type use the same method names, like get_service_charges(), but it has something to add on to the method. An example would be something like appending more text to __str__().
+
+## Strategy Pattern
+I used the Strategy Pattern by creating separate strategy classes to handle service charge calculations for different types. ChequingAccount, InvestmentAccount, and the SavingsAccount classes uses the chosen strategy at runtime.
