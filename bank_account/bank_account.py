@@ -8,7 +8,6 @@ class BankAccount(ABC):
     """
     A class that containts bank account information
     """
-    BASE_SERVICE_CHARGE = 0.5
     def __init__(self, account_number: int, client_number: int, balance: float, date_created: date):
         """
         Initializes the bank account information based on the values
