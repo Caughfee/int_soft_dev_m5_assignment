@@ -20,7 +20,7 @@ class ManagementFeeStrategy(ServiceChargeStrategy):
         self.__date_created = date_created
         self.__management_fee = management_fee
 
-    def calculate_service_charges(self, account: BankAccount):
+    def calculate_service_charges(self, account: BankAccount) -> float:
         """
         Calculates the service charges for the bank account
         Returns:
