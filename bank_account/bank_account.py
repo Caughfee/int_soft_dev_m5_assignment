@@ -87,6 +87,13 @@ class BankAccount(Subject, ABC):
             except:
                 # if all fails, the balance will not be changed
                 self.__balance = self.__balance
+        
+        # Modifications
+        if self.__balance <self.LOW_BALANCE_LEVEL:
+            self.notify(f"Low balance warning ${self.__balance}: on account {self.__account_number}.")
+
+        if amount > self.LARGE_TRANSACTION_THRESHOLD:
+            self.notify(f"Large transaction ${amount}: on account {self.__account_number}.")
 
     def deposit(self, amount: float) -> None:
         """
