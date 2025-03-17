@@ -44,10 +44,11 @@ savings_account.attach(client_1)
 
 
 # 5a. Create a second Client object with data of your choice.
-client_1 = Client(102, "Billy", "Kid", "billy.kid@gmail.com")
+client_2 = Client(102, "Billy", "Kid", "billy.kid@gmail.com")
 # 5b. Create a SavingsAccount object with data of your choice, using the client_number 
 # of the client created in this step.
-savings_account = SavingsAccount(456, 102, 1245.00, (2023, 1, 1), 100.00)
+savings_account_2 = SavingsAccount(456, 102, 1245.00, (2023, 1, 1), 100.00)
+savings_account_2.attach(client_2)
 
 
 
