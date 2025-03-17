@@ -27,4 +27,4 @@ How I achieved polymorphism is how each bank account type use the same method na
 I used the Strategy Pattern by creating separate strategy classes to handle service charge calculations for different types. ChequingAccount, InvestmentAccount, and the SavingsAccount classes uses the chosen strategy at runtime.
 
 ## Observer Pattern
-I used the Observer Pattern by having clients subscribe to bank accounts using the attach() method, and when significant events happen, the bank accounts call notify() which triggers each client's update() method to send an email alert.
+I used the Observer Pattern by having clients subscribe to bank accounts using the attach() method, and when significant events happen, the bank accounts call notify() which triggers each client's update() method to send an email alert. 
