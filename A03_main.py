@@ -27,7 +27,7 @@ client_1 = Client(101, "Anby", "Demara", "anby.demara@gmail.com")
 chequing_account = ChequingAccount(123, 101, 1000.00, date(2022, 1, 1), 500.0, 0.05)
 # 3b. Create a SavingsAccount object with data of your choice, using the client_number 
 # of the client created in step 2.
-savings_account = SavingsAccount(321, 101, 2000.00, (2023, 1, 1), 100.00)
+savings_account = SavingsAccount(321, 101, 2000.00, (2022, 1, 1), 100.00)
 
 
 
@@ -44,8 +44,10 @@ savings_account.attach(client_1)
 
 
 # 5a. Create a second Client object with data of your choice.
+client_1 = Client(102, "Billy", "Kid", "billy.kid@gmail.com")
 # 5b. Create a SavingsAccount object with data of your choice, using the client_number 
 # of the client created in this step.
+savings_account = SavingsAccount(456, 102, 1245.00, (2023, 1, 1), 100.00)
 
 
 
