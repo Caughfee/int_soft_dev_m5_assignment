@@ -9,7 +9,9 @@ __credits__ = ""
 # 1.  Import all BankAccount types using the bank_account package
 #     Import date
 #     Import Client
-
+from bank_account import *
+from datetime import date
+from client.client import Client
 
 
 
