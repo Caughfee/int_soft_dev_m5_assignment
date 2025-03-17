@@ -35,7 +35,9 @@ savings_account = SavingsAccount(321, 101, 2000.00, (2023, 1, 1), 100.00)
 # 4 The ChequingAccount and SavingsAccount objects are 'Subject' objects.
 # The Client object is an 'Observer' object.  
 # 4a.  Attach the Client object (created in step 1) to the ChequingAccount object (created in step 2).
+chequing_account.attach(client_1)
 # 4a.  Attach the Client object (created in step 1) to the SavingsAccount object (created in step 2).
+savings_account.attach(client_1)
 
 
 
