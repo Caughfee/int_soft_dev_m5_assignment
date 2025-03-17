@@ -1,6 +1,7 @@
 from patterns.observer.observer import Observer
+from abc import ABC, abstractmethod
 
-class Subject:
+class Subject(ABC):
     """
     A class that represents the Subject in the observer pattern
     """
@@ -11,23 +12,23 @@ class Subject:
         """
         self._observers = []
 
+    @abstractmethod
     def attach(self, observer: Observer) -> None:
         """
         Attaches an observer
         """
-        if observer not in self._observers:
-            self._observers.append(observer)
+        pass
 
+    @abstractmethod
     def detach(self, observer: Observer) -> None:
         """
         Detaches an observer
         """
-        if observer in self._observers:
-            self._observers.remove(observer)
+        pass
 
+    @abstractmethod
     def notify(self, message: str) -> None:
         """
         Notifies all observers with a message
         """
-        for observer in self._observers:
-            observer.update(message)
+        pass

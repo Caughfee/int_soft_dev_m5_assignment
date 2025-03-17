@@ -3,11 +3,17 @@ __version__ = "1.0.0"
 
 from  datetime import date
 from abc import ABC, abstractmethod
+from patterns.observer.subject import Subject
+from patterns.observer.observer import Observer
 
-class BankAccount(ABC):
+class BankAccount(Subject, ABC):
     """
     A class that containts bank account information
     """
+    # New Constants
+    LARGE_TRANSACTION_THRESHOLD: float = 9999.99
+    LOW_BALANCE_LEVEL: float = 50.0
+
     def __init__(self, account_number: int, client_number: int, balance: float, date_created: date):
         """
         Initializes the bank account information based on the values
@@ -17,6 +23,7 @@ class BankAccount(ABC):
             balance (float): The balance of the bank account
             date_created (date): The date it was created
         """
+        super().__init__()
 
         if isinstance(account_number, int):
             self.__account_number = account_number
@@ -144,3 +151,33 @@ class BankAccount(ABC):
             float - the service charges
         """
         pass
+
+    def attach(self, observer: Observer) -> None:
+        """
+        Attaches an observer to the account
+
+        Args:
+            observer (Observer): The observer to attach
+        """
+        if observer not in self._observers:
+            self._observers.append(observer)
+
+    def detach(self, observer: Observer) -> None:
+        """
+        Detaches an observer from the account
+
+        Args:
+            observer (Observer): The observer that will detach
+        """
+        if observer in self._observers:
+            self._observers.remove(observer)
+
+    def notify(self, message: str) -> None:
+        """
+        Notifies all attached observers with a message
+
+        Args:
+            message (str): The notification message
+        """
+        for observer in self._observers:
+            observer.update(message)
