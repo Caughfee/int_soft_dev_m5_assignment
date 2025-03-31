@@ -78,3 +78,38 @@ To: billy.kid@gmail.com
 Subject: ALERT: Unusual Activity: 2025-03-16 23:21:22.100851
 Message: Notification for 102: Billy Kid: Low balance warning $30.0: on account 456.
 ---
+---
+To: anby.demara@gmail.com
+Subject: ALERT: Unusual Activity: 2025-03-31 13:16:11.019917
+Message: Notification for 101: Anby Demara: Large transaction $10000.0: on account 123.
+---
+---
+To: anby.demara@gmail.com
+Subject: ALERT: Unusual Activity: 2025-03-31 13:16:11.022415
+Message: Notification for 101: Anby Demara: Low balance warning $40.0: on account 123.
+---
+---
+To: anby.demara@gmail.com
+Subject: ALERT: Unusual Activity: 2025-03-31 13:16:11.024472
+Message: Notification for 101: Anby Demara: Large transaction $12000.0: on account 321.
+---
+---
+To: anby.demara@gmail.com
+Subject: ALERT: Unusual Activity: 2025-03-31 13:16:11.026384
+Message: Notification for 101: Anby Demara: Low balance warning $40.0: on account 321.
+---
+---
+To: anby.demara@gmail.com
+Subject: ALERT: Unusual Activity: 2025-03-31 13:16:11.028059
+Message: Notification for 101: Anby Demara: Low balance warning $30.0: on account 321.
+---
+---
+To: billy.kid@gmail.com
+Subject: ALERT: Unusual Activity: 2025-03-31 13:16:11.030031
+Message: Notification for 102: Billy Kid: Large transaction $15000.0: on account 456.
+---
+---
+To: billy.kid@gmail.com
+Subject: ALERT: Unusual Activity: 2025-03-31 13:16:11.031817
+Message: Notification for 102: Billy Kid: Low balance warning $30.0: on account 456.
+---
