@@ -92,7 +92,7 @@ def load_data()->tuple[dict,dict]:
 
                 # Verify client_number exists
                 if client_number not in client_listing:
-                    raise ValueError(f"root - ERROR - Bank Account: {account_number} contains invalid Client Number: {client_number}")
+                    raise ValueError(f"Bank Account: {account_number} contains invalid Client Number: {client_number}")
 
                 # Create appropriate account object
                 if account_type == "ChequingAccount":
@@ -114,10 +114,10 @@ def load_data()->tuple[dict,dict]:
                 # Store the account in the dictionary
                 accounts[account_number] = account
             except Exception as e:
-                logging.error(f"root - ERROR - Unable to create bank account: {e}")
+                logging.error(f"Unable to create bank account: {e}")
 
     # RETURN STATEMENT
-
+    return client_listing, accounts
 
 def update_data(updated_account: BankAccount) -> None:
     """
