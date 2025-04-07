@@ -38,7 +38,7 @@ class AccountDetailsWindow(DetailsWindow):
         # Connect buttons to corresponding methods
         self.deposit_button.clicked.connect(self.on_apply_transaction)  # Connect deposit button
         self.withdraw_button.clicked.connect(self.on_apply_transaction)  # Connect withdraw button
-        #self.exit_button.clicked.connect(self.on_exit)  # Connect exit button
+        self.exit_button.clicked.connect(self.on_exit)  # Connect exit button
 
     @Slot()
     def on_apply_transaction(self) -> None:
@@ -76,7 +76,10 @@ class AccountDetailsWindow(DetailsWindow):
             self.transaction_amount_edit.clear()
             self.transaction_amount_edit.setFocus()
 
-        @Slot()
-        def on_exit(self):
-
+    @Slot()
+    def on_exit(self):
+        """
+        Handles closing the QDialog
+        """
+        self.close()
         
