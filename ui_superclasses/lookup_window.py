@@ -2,7 +2,7 @@ __author__ = "ACE Faculty"
 __version__ = "1.0.0"
 
 from PySide6.QtWidgets import QMainWindow, QWidget, QGridLayout, QLabel, QLineEdit, QPushButton, QTableWidget, QComboBox, QMessageBox, QTableWidgetItem
-from PySide6.QtCore import Qt
+from PySide6.QtCore import Qt, Slot
 from PySide6.QtGui import QFont
 from user_interface.manage_data import load_data
 
@@ -115,6 +115,7 @@ class LookupWindow(QMainWindow):
         self.filter_button.setEnabled(False)
         self.filter_label.setEnabled(False)
 
+    @Slot()
     def on_lookup_client(self):
         try:
             client_number = int(self.client_number_edit.text().strip())
@@ -156,5 +157,11 @@ class LookupWindow(QMainWindow):
 
         self.account_table.resizeColumnsToContents()
                 
-
+    @Slot()
+    def on_text_changed(self):
+        """
+        clears all account records from the account_table
+        """
+        self.account_table.setRowCount(0) # removes all rows
+    
    
