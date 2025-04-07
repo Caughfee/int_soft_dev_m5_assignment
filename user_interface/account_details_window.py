@@ -42,7 +42,13 @@ class AccountDetailsWindow(DetailsWindow):
 
     @Slot()
     def on_apply_transaction(self) -> None:
-        """Handles deposit and withdrawal transactions for the bank account."""
+        """
+        Handles deposit and withdrawal transactions for the bank account.
+        
+        Raises:
+            Displays warning dialog if amount is not numeric
+            Displays warning dialog with error message if transaction fails
+        """
 
         try:
             # Convert transaction amount to float

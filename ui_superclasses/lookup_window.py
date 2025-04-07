@@ -118,6 +118,12 @@ class LookupWindow(QMainWindow):
 
     @Slot()
     def on_lookup_client(self):
+        """
+        Retrieves and displays client and account information based on client number input.
+
+        Exceptions:
+            - Displays an error if the client number is not numeric.
+        """
         try:
             client_number = int(self.client_number_edit.text().strip())
 
@@ -168,7 +174,15 @@ class LookupWindow(QMainWindow):
     @Slot(int, int)
     def on_select_account(self, row: int, column: int) -> None:
         """
-        
+        Handles the selection of an account from the account table.
+
+        Args:
+            row (int): The row index of the selected cell
+            column (int): The column index of the selected cell
+
+         Displays warning messages if:
+            The selected cell doesn't contain valid data
+            The account number cannot be converted to an integer
         """
         item = self.account_table.item(row, 0) # column 0 is the account number
 
