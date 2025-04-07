@@ -1,7 +1,7 @@
 __author__ = "ACE Faculty"
 __version__ = "1.0.0"
 
-from PySide6.QtWidgets import QMainWindow, QWidget, QGridLayout, QLabel, QLineEdit, QPushButton, QTableWidget, QComboBox
+from PySide6.QtWidgets import QMainWindow, QWidget, QGridLayout, QLabel, QLineEdit, QPushButton, QTableWidget, QComboBox, QMessageBox, QTableWidgetItem
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont
 from user_interface.manage_data import load_data
@@ -24,11 +24,6 @@ class LookupWindow(QMainWindow):
         client_data, account_data = load_data()
         self.client_listing = client_data
         self.accounts = account_data
-
-        # Connect events to the buttons
-        self.lookup_button.clicked.connect(self.on_lookup_client)
-        self.client_number_edit.textChanged.connect(self.on_text_changed)
-        self.account_table.cellClicked.connect(self.on_select_account)
 
         COLUMN_HEADERS = ["Account Number", "Balance", "Date Created", "Account Type"]
 
@@ -92,6 +87,11 @@ class LookupWindow(QMainWindow):
         self.account_table.resizeRowsToContents()
         self.reset_display()
 
+        # Connect events to the buttons
+        self.lookup_button.clicked.connect(self.on_lookup_client)
+        #self.client_number_edit.textChanged.connect(self.on_text_changed)
+        #self.account_table.cellClicked.connect(self.on_select_account)
+
 
     def reset_display(self):
         """
@@ -115,5 +115,46 @@ class LookupWindow(QMainWindow):
         self.filter_button.setEnabled(False)
         self.filter_label.setEnabled(False)
 
+    def on_lookup_client(self):
+        try:
+            client_number = int(self.client_number_edit.text().strip())
+
+        except ValueError:
+            QMessageBox.warning(self, "Input Error","The client number must be a numeric value.")
+
+            self.reset_display()
+
+            return
+        
+        client = (self.client_listing.get(client_number))
+        if not client:
+            QMessageBox.warning(self, "Not Found", f"Client number: {client_number} not found.")
+
+            self.reset_display()
+            return
+        
+        self.client_info_label.setText(f"Client Name: {client.first_name} {client.last_name}")
+
+        self.account_table.setRowCount(0)
+
+        for account in self.accounts.values():
+            if account.client_number == client_number:
+                row_position = self.account_table.rowCount()
+                self.account_table.insertRow(row_position)
+
+                self.account_table.setItem(row_position, 0, QTableWidgetItem(str(account.account_number)))
+                self.account_table.setItem(row_position, 1, QTableWidgetItem(f"${account.balance:.2f}"))
+                self.account_table.setItem(row_position, 2, QTableWidgetItem(account.date_created.isoformat()))
+                self.account_table.setItem(row_position, 3, QTableWidgetItem(account.__class__.__name__))
+
+                for column in range(4):
+                    item = self.account_table.item(row_position, column)
+                    if column == 1:
+                        item.setTextAlignment(Qt.AlignRight) #align balance column to the right
+                    else:
+                        item.setTextAlignment(Qt.AlignCenter) # align the rest of the columns to the center
+
+        self.account_table.resizeColumnsToContents()
+                
 
    

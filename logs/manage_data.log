@@ -610,3 +610,3063 @@ root - ERROR - Unable to create bank account: Not a valid account type.
 root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
 
 
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
+root - ERROR - Unable to create client: First name must be filled.
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: could not convert string to float: 'ten'
+
+
+root - ERROR - Unable to create bank account: Enter a valid date
+
+
+root - ERROR - Unable to create bank account: Not a valid account type.
+
+
+root - ERROR - Unable to create bank account: Bank Account: 20100 contains invalid Client Number: 9999
+
+
