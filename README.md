@@ -28,3 +28,6 @@ I used the Strategy Pattern by creating separate strategy classes to handle serv
 
 ## Observer Pattern
 I used the Observer Pattern by having clients subscribe to bank accounts using the attach() method, and when significant events happen, the bank accounts call notify() which triggers each client's update() method to send an email alert. 
+
+## Event-Driven Programming Paradigm
+This application uses an event-driven approach, meaning it reacts to user actions like typing or clicking. For example, if I type in the client number or click a button, it triggers specific actions like looking up details or updating the display. This makes the program interactive and responsive to what you do. I used signals like textChanged and clicked trigger methods such as on_text_changed and on_apply_transaction to update the UI or process user input. 
