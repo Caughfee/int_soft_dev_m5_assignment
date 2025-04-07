@@ -64,6 +64,9 @@ class AccountDetailsWindow(DetailsWindow):
             else:
                 return  # If no valid button was clicked, exit
             
+            # Emit the balance_updated signal after a successful transaction
+            self.balance_updated.emit(self.account)  # Send updated BankAccount 
+            
             # Update balance label
             self.balance_label.setText(f"Balance: ${self.account.balance:.2f}")
 
