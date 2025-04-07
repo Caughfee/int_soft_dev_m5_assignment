@@ -87,7 +87,7 @@ def load_data()->tuple[dict,dict]:
                 account_number = int(row['account_number'])
                 client_number = int(row['client_number'])
                 balance = float(row['balance'])
-                date_created = (row['date_created'])
+                date_created = datetime.fromisoformat(row['date_created'])
                 account_type = row['account_type'].strip()
 
                 # Verify client_number exists

@@ -144,7 +144,7 @@ class LookupWindow(QMainWindow):
 
                 self.account_table.setItem(row_position, 0, QTableWidgetItem(str(account.account_number)))
                 self.account_table.setItem(row_position, 1, QTableWidgetItem(f"${account.balance:.2f}"))
-                self.account_table.setItem(row_position, 2, QTableWidgetItem(account.date_created.isoformat()))
+                self.account_table.setItem(row_position, 2, QTableWidgetItem(account._date_created.strftime('%Y-%m-%d')))
                 self.account_table.setItem(row_position, 3, QTableWidgetItem(account.__class__.__name__))
 
                 for column in range(4):
