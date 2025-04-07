@@ -187,6 +187,10 @@ class LookupWindow(QMainWindow):
             selected_account = self.accounts[account_number]
             
             account_details_dialog = AccountDetailsWindow(selected_account)
+
+            # Connect the balance_updated signal to the update_data slot
+            account_details_dialog.balance_updated.connect(self.update_data)
+
             account_details_dialog.exec()
 
    

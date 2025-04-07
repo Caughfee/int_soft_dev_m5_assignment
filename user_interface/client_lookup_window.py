@@ -28,6 +28,5 @@ class ClientLookupWindow(LookupWindow):
         self.accounts[updated_account.account_number] = updated_account
 
         # Persist changes to the CSV file
-        from user_interface.manage_data import update_data  # Import if not already done
         update_data(updated_account)
         
