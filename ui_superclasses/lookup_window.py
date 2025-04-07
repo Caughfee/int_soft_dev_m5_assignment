@@ -5,6 +5,7 @@ from PySide6.QtWidgets import QMainWindow, QWidget, QGridLayout, QLabel, QLineEd
 from PySide6.QtCore import Qt, Slot
 from PySide6.QtGui import QFont
 from user_interface.manage_data import load_data
+from user_interface.account_details_window import AccountDetailsWindow
 
 class LookupWindow(QMainWindow):
     """
@@ -89,8 +90,8 @@ class LookupWindow(QMainWindow):
 
         # Connect events to the buttons
         self.lookup_button.clicked.connect(self.on_lookup_client)
-        #self.client_number_edit.textChanged.connect(self.on_text_changed)
-        #self.account_table.cellClicked.connect(self.on_select_account)
+        self.client_number_edit.textChanged.connect(self.on_text_changed)
+        self.account_table.cellClicked.connect(self.on_select_account)
 
 
     def reset_display(self):
@@ -164,4 +165,28 @@ class LookupWindow(QMainWindow):
         """
         self.account_table.setRowCount(0) # removes all rows
     
+    @Slot(int, int)
+    def on_select_account(self, row: int, column: int) -> None:
+        """
+        
+        """
+        item = self.account_table.item(row, 0) # column 0 is the account number
+
+        if item is None or item.text().strip() == "":
+            QMessageBox.warning(self, "Invalid Selection", "Please select a valid record.")
+            return
+        
+        try:
+            account_number = int(item.text().strip()) # Convert to integer
+        except ValueError:
+            QMessageBox.warning(self, "Invalid Selection", "Please select a valid record.")
+            return
+
+        # check if account exists in self.accounts
+        if account_number in self.accounts:
+            selected_account = self.accounts[account_number]
+            
+            account_details_dialog = AccountDetailsWindow(selected_account)
+            account_details_dialog.exec()
+
    
