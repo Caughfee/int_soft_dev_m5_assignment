@@ -4,6 +4,7 @@ __version__ = "1.0.0"
 from PySide6.QtWidgets import QMainWindow, QWidget, QGridLayout, QLabel, QLineEdit, QPushButton, QTableWidget, QComboBox
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont
+from user_interface.manage_data import load_data
 
 class LookupWindow(QMainWindow):
     """
@@ -18,6 +19,16 @@ class LookupWindow(QMainWindow):
         client_info_label, lookup_button and account_table.
         """
         super().__init__()
+
+        # Call the load_data method
+        client_data, account_data = load_data()
+        self.client_listing = client_data
+        self.accounts = account_data
+
+        # Connect events to the buttons
+        self.lookup_button.clicked.connect(self.on_lookup_client)
+        self.client_number_edit.textChanged.connect(self.on_text_changed)
+        self.account_table.cellClicked.connect(self.on_select_account)
 
         COLUMN_HEADERS = ["Account Number", "Balance", "Date Created", "Account Type"]
 
