@@ -19,6 +19,7 @@ class ClientLookupWindow(LookupWindow):
         self.lookup_button.clicked.connect(self.on_lookup_client)
         self.client_number_edit.textChanged.connect(self.on_text_changed)
         self.account_table.cellClicked.connect(self.on_select_account)
+        self.filter_button.clicked.connect(self.on_filter_clicked)
         
 
     @Slot(BankAccount)
@@ -136,7 +137,7 @@ class ClientLookupWindow(LookupWindow):
     @Slot()
     def on_filter_clicked(self) -> None:
         """
-        
+        Handles filtering rows in the account table based on the defined criteria
         """
 
         if self.filter_button.text() == "Apply Filter":
@@ -162,7 +163,7 @@ class ClientLookupWindow(LookupWindow):
 
     def toggle_filter(self, filter_on: bool) -> None:
         """
-        
+        Toggles the display of filter widgets / indicates whether the user if its filtering or not.
         """
 
         # Set the filter button true initially
