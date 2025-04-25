@@ -31,3 +31,6 @@ I used the Observer Pattern by having clients subscribe to bank accounts using t
 
 ## Event-Driven Programming Paradigm
 This application uses an event-driven approach, meaning it reacts to user actions like typing or clicking. For example, if I type in the client number or click a button, it triggers specific actions like looking up details or updating the display. This makes the program interactive and responsive to what you do. I used signals like textChanged and clicked trigger methods such as on_text_changed and on_apply_transaction to update the UI or process user input. 
+
+## Filtering
+I added a filtering system to the Account Manager software. So essentially, what it does is the filter gets triggered when the user clicks the Apply Filter while there is a valid value in the text box. Then the software iterates through every row to find if the value exists in the database. If it does, then it will display the row, otherwise, it does not.
