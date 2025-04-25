@@ -12,6 +12,11 @@ from user_interface.manage_data import update_data
 from bank_account.bank_account import BankAccount
 
 class ClientLookupWindow(LookupWindow):
+    def __init__(self) -> None:
+        super().__init__()
+
+        self.filler_button.clicked.connect(self.on_filter_clicked)
+
     @Slot(BankAccount)
     def update_data(self, updated_account: BankAccount) -> None:
         """Updates the balance in the table and accounts dictionary after a signal is received."""
