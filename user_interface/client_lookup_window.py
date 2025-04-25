@@ -130,6 +130,30 @@ class ClientLookupWindow(LookupWindow):
 
             account_details_dialog.exec()
 
-    
+    @Slot()
+    def on_filter_clicked(self) -> None:
+        """
+        
+        """
 
+        if self.filter_button.text() == "Apply Filter":
+            filter_index = self.filter_combo_box.currentIndex()
+            filter_text = self.filter_edit.text().strip()
+
+            for row in range(self.account_table.rowCount()):
+                item = self.account_table.item(row, filter_index)
+
+                if item and filter_text.lower() in item.text().lower():
+                    self.account_table.setRowHidden(row, False) # show matching
+
+                else:
+                    self.account_table.setRowHidden(row, True) # hide non matching
+
+            self.toggle_filter(True)
+
+        else:
+            for row in range(self.account_table.rowCount()):
+                self.account_table.setRowHidden(row, False)
+
+                self.toggle_filter(False)
 
