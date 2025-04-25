@@ -15,7 +15,11 @@ class ClientLookupWindow(LookupWindow):
     def __init__(self) -> None:
         super().__init__()
 
-        self.filler_button.clicked.connect(self.on_filter_clicked)
+        # Connect events to the buttons
+        self.lookup_button.clicked.connect(self.on_lookup_client)
+        self.client_number_edit.textChanged.connect(self.on_text_changed)
+        self.account_table.cellClicked.connect(self.on_select_account)
+        
 
     @Slot(BankAccount)
     def update_data(self, updated_account: BankAccount) -> None:
@@ -34,4 +38,98 @@ class ClientLookupWindow(LookupWindow):
 
         # Persist changes to the CSV file
         update_data(updated_account)
+
+    @Slot()
+    def on_lookup_client(self):
+        """
+        Retrieves and displays client and account information based on client number input.
+
+        Exceptions:
+            - Displays an error if the client number is not numeric.
+        """
+        try:
+            client_number = int(self.client_number_edit.text().strip())
+
+        except ValueError:
+            QMessageBox.warning(self, "Input Error","The client number must be a numeric value.")
+
+            self.reset_display()
+
+            return
         
+        client = (self.client_listing.get(client_number))
+        if not client:
+            QMessageBox.warning(self, "Not Found", f"Client number: {client_number} not found.")
+
+            self.reset_display()
+            return
+        
+        self.client_info_label.setText(f"Client Name: {client.first_name} {client.last_name}")
+
+        self.account_table.setRowCount(0)
+
+        for account in self.accounts.values():
+            if account.client_number == client_number:
+                row_position = self.account_table.rowCount()
+                self.account_table.insertRow(row_position)
+
+                self.account_table.setItem(row_position, 0, QTableWidgetItem(str(account.account_number)))
+                self.account_table.setItem(row_position, 1, QTableWidgetItem(f"${account.balance:.2f}"))
+                self.account_table.setItem(row_position, 2, QTableWidgetItem(account._date_created.strftime('%Y-%m-%d')))
+                self.account_table.setItem(row_position, 3, QTableWidgetItem(account.__class__.__name__))
+
+                for column in range(4):
+                    item = self.account_table.item(row_position, column)
+                    if column == 1:
+                        item.setTextAlignment(Qt.AlignRight) #align balance column to the right
+                    else:
+                        item.setTextAlignment(Qt.AlignCenter) # align the rest of the columns to the center
+
+        self.account_table.resizeColumnsToContents()
+                
+    @Slot()
+    def on_text_changed(self):
+        """
+        clears all account records from the account_table
+        """
+        self.account_table.setRowCount(0) # removes all rows
+    
+    @Slot(int, int)
+    def on_select_account(self, row: int, column: int) -> None:
+        """
+        Handles the selection of an account from the account table.
+
+        Args:
+            row (int): The row index of the selected cell
+            column (int): The column index of the selected cell
+
+         Displays warning messages if:
+            The selected cell doesn't contain valid data
+            The account number cannot be converted to an integer
+        """
+        item = self.account_table.item(row, 0) # column 0 is the account number
+
+        if item is None or item.text().strip() == "":
+            QMessageBox.warning(self, "Invalid Selection", "Please select a valid record.")
+            return
+        
+        try:
+            account_number = int(item.text().strip()) # Convert to integer
+        except ValueError:
+            QMessageBox.warning(self, "Invalid Selection", "Please select a valid record.")
+            return
+
+        # check if account exists in self.accounts
+        if account_number in self.accounts:
+            selected_account = self.accounts[account_number]
+            
+            account_details_dialog = AccountDetailsWindow(selected_account)
+
+            # Connect the balance_updated signal to the update_data slot
+            account_details_dialog.balance_updated.connect(self.update_data)
+
+            account_details_dialog.exec()
+
+    
+
+
